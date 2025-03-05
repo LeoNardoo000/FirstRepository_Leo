@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 0;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+}   
+
+#A {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+#A h1 {
+    color: #4CAF50;
+}
+
+#B {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#C, #D {
+    flex: 1;
+    margin: 10px;
+}
+
+#C img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#D {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#D h1 {
+    color: #4CAF50;
+}
+
+#D p {
+    line-height: 1.6;
+}
+
+#E {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#E form {
+    display: flex;
+    flex-direction: column;
+}
+
+#E form input[type="text"],
+#E form input[type="submit"] {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#E form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#E form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
